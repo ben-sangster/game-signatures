@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+html {
+    background-color: rgb(230, 230, 230);
+    font-smooth: always;
+}
+
+#area {
+    margin: auto;
+    position: relative;
+    width: 700px;
+}
+
+#text { text-align: center; }
+
+.signature {
+    float: left;
+    background-image: -webkit-linear-gradient(top, transparent, black);
+    border-style: solid;
+    border-color: #FFAA00;
+    border-radius: 15px;
+    width: 200px;
+    min-height: 30px;
+    margin: 5px;
+    color: white;
+    text-shadow: -1px -1px 5px black;
+    
+    font-family: WideawakeRegular;
+}
+
+.gameInfo {
+    text-shadow: -1px -1px 5px black;
+    font-family: Courier;
+    color: yellow;
+    text-align: left;
+}
+
+.overlay {
+	text-align: right;
+	letter-spacing: 1px;
+    background-image: -webkit-linear-gradient(top left, white, transparent);
+    border-top-left-radius: 10px;
+    vertical-align: bottom;
+}

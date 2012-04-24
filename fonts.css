@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+
+@font-face {
+    font-family: 'WideawakeRegular';
+    src: url('./fonts/Wide_awake-webfont.eot');
+    src: url('./fonts/Wide_awake-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Wide_awake-webfont.woff') format('woff'),
+         url('./fonts/Wide_awake-webfont.ttf') format('truetype'),
+         url('./fonts/Wide_awake-webfont.svg#WideawakeRegular') format('svg');
+
+}
+
+@font-face {
+    font-family: 'WideawakeBlackRegular';
+    src: url('./fonts/Wide_awake_Black-webfont.eot');
+    src: url('./fonts/Wide_awake_Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Wide_awake_Black-webfont.woff') format('woff'),
+         url('./fonts/Wide_awake_Black-webfont.ttf') format('truetype'),
+         url('./fonts/Wide_awake_Black-webfont.svg#WideawakeBlackRegular') format('svg');
+}

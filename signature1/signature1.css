@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+
+@font-face {
+    font-family: 'WideawakeRegular';
+    src: url('../fonts/Wide_awake-webfont.eot');
+    src: url('../fonts/Wide_awake-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Wide_awake-webfont.woff') format('woff'),
+         url('../fonts/Wide_awake-webfont.ttf') format('truetype'),
+         url('../fonts/Wide_awake-webfont.svg#WideawakeRegular') format('svg');
+
+}
+
+@font-face {
+    font-family: 'WideawakeBlackRegular';
+    src: url('../fonts/Wide_awake_Black-webfont.eot');
+    src: url('../fonts/Wide_awake_Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Wide_awake_Black-webfont.woff') format('woff'),
+         url('../fonts/Wide_awake_Black-webfont.ttf') format('truetype'),
+         url('../fonts/Wide_awake_Black-webfont.svg#WideawakeBlackRegular') format('svg');
+}
+
+html {
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    font-smooth: always;
+}
+
+#area {
+	margin: auto;
+	position: relative;
+	width: 700px;
+}
+
+.signature {
+	float: left;
+	background-image: -webkit-linear-gradient(top, transparent, black);
+	border-style: solid;
+/* 	border-width: 1px;
+	border-color: gray; */
+	border-radius: 15px;
+	width: 200px;
+	height: 30px;
+	margin: 5px;
+    color: white;
+    text-align: right;
+    text-shadow: -1px -1px 5px black;
+    letter-spacing: 1px;
+    font-family: WideawakeRegular;
+}
+
+.overlay {
+	background-image: -webkit-linear-gradient(top left, white, transparent);
+	border-top-left-radius: 10px;
+	vertical-align: bottom;
+}
